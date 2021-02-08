@@ -9,8 +9,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Material(
-        child: Container(
-          child: Text("welcome two 20 days"),
+        child: Center(
+          child: Container(
+            child: Text("welcome two 20 days"),
+          ),
         ),
       ),
     );
