@@ -16,11 +16,12 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData(
         brightness: Brightness.light,
       ),
-      initialRoute: "/home",
+      //initialRoute: "/",
+      // home:  HomePage(),
       routes: {
-        "/": (context) => LogInPage(),
+        "/": (context) => HomePage(),
+        "/login": (context) => LogInPage(),
         "/home": (context) => HomePage(),
-        "/login": (context) => LogInPage()
       },
     );
   }
