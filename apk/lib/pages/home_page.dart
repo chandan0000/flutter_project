@@ -8,6 +8,7 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Container(
           child: Text("hi mr hacker "),
+          //child: Text("thanks mr hacker "),
         ),
       ),
       drawer: Drawer(),
