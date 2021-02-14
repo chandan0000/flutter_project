@@ -1,7 +1,7 @@
 class CataLogModel {
   static final items = [
     Item(
-        id: "1",
+        id: 1,
         name: "iPhone 12 Pro",
         desc: "Apple iPhone 12th generation",
         price: 999,
@@ -12,7 +12,7 @@ class CataLogModel {
 }
 
 class Item {
-  final String id;
+  final num id;
   final String name;
   final String desc;
   final num price;
